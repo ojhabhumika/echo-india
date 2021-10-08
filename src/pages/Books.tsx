@@ -106,7 +106,7 @@ const Books: React.FC = () => {
   }
 
   return (
-    <div style={{ margin: "10px 35px" }} data-testid="test-books">
+    <div style={{ margin: "10px 35px" }} data-testid="test-books" >
       <PageHeader
         onBack={() => alert("In Progress")}
         title="Books"
